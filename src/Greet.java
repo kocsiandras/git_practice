@@ -1,5 +1,5 @@
 public class Greet {
-  public String greet(){
-    return "Andris";
+  public String greet(String name){
+    return name;
   }
 }
