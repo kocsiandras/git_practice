@@ -1,10 +1,7 @@
 public class Count {
-  public void count() {
-    System.out.println("1");
-  }
-
-  public void count(int age) {
-    System.out.println(age);
+  public void count (String parameter) {
+    parameter = "Counting the countless";
+    System.out.println(parameter);
 
   }
 }
