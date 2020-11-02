@@ -1,6 +1,7 @@
 public class Cheer {
-    public String cheer(String name) {
+    public String cheer(String name, String age) {
         name = "Fanni";
-        return name;
+        age = "20";
+        return name + age;
     }
 }
