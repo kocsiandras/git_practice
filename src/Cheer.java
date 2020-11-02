@@ -1,7 +1,8 @@
 public class Cheer {
-    public String cheer(String name) {
+    public String cheer(String name, String age) {
         name = "Fanni";
-        System.out.println("java");
-        return name;
+
+        age = "20";
+        return name + age;
     }
 }
